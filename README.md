@@ -1,5 +1,6 @@
 # topStreamedArtists
 Lab #2 - Report: Who appears on the top streamed list?
+
 This java program reads in a CSV file of Spotify's Top 200 artist chart and outputs number of times each artist appeared in the top 200 and a list of a sorted chart with no duplicates. 
 
 This repository contains a music.csv file containing the original chart downloaded from Spotify, the source code "topStreamedList", and two output file - "artist&number.txt" - that has the artist total appearance list and the other one "Artists-WeekOf08302020.txt" that contains a sorted chart with no duplicates. 
