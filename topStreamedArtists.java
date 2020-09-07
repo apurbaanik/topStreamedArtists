@@ -64,7 +64,6 @@ public class topStreamedArtists { // class started
         // Prints out part two of the report original chart containing zero duplicates
         int count = 1;
         for (Map.Entry<String, String[]> x : map2.entrySet()) {
-            // System.out.println(x.getKey() + " " + "info" + ": " + Arrays.toString(x.getValue()) + " times");
             report2.println(count + " Track Name: " + x.getValue()[1] + ", Artist Name: "
                     + (x.getValue()[2]).toUpperCase() + ", Streams: " + x.getValue()[3]
                     + ", URL: " + x.getValue()[4]);
